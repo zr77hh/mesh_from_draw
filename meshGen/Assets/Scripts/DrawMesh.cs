@@ -129,7 +129,6 @@ public class DrawMesh : MonoBehaviour
 		float angle = 0f;
 		float angleStep = (2*Mathf.PI)/loops;
 
-		float t = index / (points.Length-1f);
 		
 
 		for (int i = 0; i < loops; i++)
